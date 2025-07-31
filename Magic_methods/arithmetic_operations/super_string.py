@@ -41,20 +41,20 @@ class SuperString:
                 return SuperString(self.string[other:])
         return NotImplemented
 
-# s1 = SuperString('bee')
-# s2 = SuperString('geek')
-#
-# print(s1 + s2)
-# print(s2 + s1)
+s1 = SuperString('bee')
+s2 = SuperString('geek')
+
+print(s1 + s2)
+print(s2 + s1)
 
 
 s = SuperString('beegeek')
 
-# print(s * 2)
-# print(3 * s)
+print(s * 2)
+print(3 * s)
 print(s / 3)
-#
-# s = SuperString('beegeek')
-#
-# print(s << 4)
-# print(s >> 3)
+
+s = SuperString('beegeek')
+
+print(s << 4)
+print(s >> 3)

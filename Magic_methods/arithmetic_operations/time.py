@@ -30,12 +30,12 @@ class Time:
             return self
         else:
             return NotImplemented
-#
-# time1 = Time(2, 30)
-# time2 = Time(3, 10)
-#
-# print(time1 + time2)
-# print(time2 + time1)
+
+time1 = Time(2, 30)
+time2 = Time(3, 10)
+
+print(time1 + time2)
+print(time2 + time1)
 
 t = Time(22, 0)
 t += Time(3, 0)
