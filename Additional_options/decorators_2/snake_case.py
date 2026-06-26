@@ -1,0 +1,21 @@
+def snake_case(attrs=False):
+    pass
+
+# Входные данные
+@snake_case()
+class MyClass:
+    def FirstMethod(self):
+        return 1
+
+    def superSecondMethod(self):
+        return 2
+
+
+obj = MyClass()
+
+print(obj.first_method())
+print(obj.super_second_method())
+
+# Выходные данные
+# 1
+# 2
